@@ -70,9 +70,11 @@ $font-family-sans-serif: Lato;
 
 
 /* ---- grid-item ---- */
-
+.grid{
+  margin: 0 auto;
+}
 .grid-item {
-  width: 370px;
+  width: 300px;
   height: 120px;
   float: left;
   background: #808080;
@@ -81,13 +83,6 @@ $font-family-sans-serif: Lato;
   border-radius: 5px;
 }
 
-.grid-item--width2 { width: 320px; }
-.grid-item--width3 { width: 480px; }
-.grid-item--width4 { width: 640px; }
-
-.grid-item--height2 { height: 200px; }
-.grid-item--height3 { height: 260px; }
-.grid-item--height4 { height: 360px; }
 
 .jumbotron {
   position:relative;
@@ -126,7 +121,6 @@ img.blur {
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
 
 #thehero {
-  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -140,7 +134,6 @@ img.blur {
   background-attachment: fixed;
 }
 #thehero-2 {
-  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -188,3 +181,24 @@ img.blur {
 }
 
 /* special thanks to https://codetheweb.blog/demo/full-image-hero/ */
+/* bottom nav mobile */
+.mobile-nav {
+  background: #F1F1F1;
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bloc-icon svg {
+  width: 30px;
+}
+
