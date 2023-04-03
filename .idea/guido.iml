@@ -62,6 +62,7 @@
       <excludeFolder url="file://$MODULE_DIR$/bedrock/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/bedrock/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/bedrock/vendor/log1x/acf-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/bedrock/vendor/log1x/sage-svg" />
       <excludeFolder url="file://$MODULE_DIR$/bedrock/vendor/stoutlogic/acf-builder" />
     </content>
     <orderEntry type="inheritedJdk" />
