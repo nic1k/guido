@@ -86,6 +86,7 @@
       <path value="$PROJECT_DIR$/bedrock/vendor/stoutlogic/acf-builder" />
       <path value="$PROJECT_DIR$/bedrock/vendor/log1x/acf-composer" />
       <path value="$PROJECT_DIR$/bedrock/vendor/log1x/sage-svg" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/roots/sage-woocommerce" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
