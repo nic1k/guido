@@ -13,3 +13,6 @@ wp plugin install ${acf_zip_file} --activate --allow-root
 
 # remove zip file
 rm ${acf_zip_file}
+
+wp plugin update --all --allow-root
+wp plugin install woocommerce --allow-root --activate
