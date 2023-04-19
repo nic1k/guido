@@ -58,6 +58,9 @@ add_action('after_setup_theme', function () {
      */
     register_nav_menus([
         'primary_navigation' => __('Primary Navigation', 'sage'),
+        'top_menu' => __('Top menu', 'sage'),
+        'social_menu' => __('Social menu', 'sage'),
+        'footer_menu' => __('Footer menu', 'sage'),
     ]);
 
     /**
