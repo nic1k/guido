@@ -3,8 +3,9 @@
 wp post generate --post_type=page --post_title=Homepage --allow-root --count=1
 
 #woocommerce
-wp post generate --post_type=page --post_title=Regulamin --allow-root --count=1
-wp post generate --post_type=page --post_title=Kontakt --allow-root --count=1
+wp post generate --post_type=page --post_title=Statute --allow-root --count=1
+wp post generate --post_type=page --post_title=Contact --allow-root --count=1
+wp post generate --post_type=page --post_title=About --allow-root --count=1
 
 
 
